@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Logout" time="11.599" tests="2" failures="0" errors="0">
+   <testsuite name="Logout" tests="2" failures="0" errors="0" time="11.599" skipped="0" timestamp="2022-12-21 22:28:00" hostname="rivaldo - GABRIEL" id="Test Suites/Logout/Logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rivaldo\\Katalon Studio\\WEB CAPSTONE\\Reports\\20221221_222752\\Logout\\Logout\\20221221_222752"/>
+         <property name="logFiles" value="C:\\Users\\rivaldo\\Katalon Studio\\WEB CAPSTONE\\Reports\\20221221_222752\\Logout\\Logout\\20221221_222752\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rivaldo - GABRIEL"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.20"/>
+         <property name="sessionId" value="3f0dfcea688d65149fe488caa068ba04"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logout/TC_Logout" time="10.896" classname="Test Cases/Logout/TC_Logout" status="PASSED">
+         <system-out><![CDATA[2022-12-21 22:28:00 - [TEST_CASE][PASSED] - Test Cases/Logout/TC_Logout: Test Cases/Logout/TC_Logout
+
+2022-12-21 22:28:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-21 22:28:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-21 22:28:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-21 22:28:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-21 22:28:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-21 22:28:04 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-21 22:28:04 - [TEST_STEP][PASSED] - navigateToUrl("https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"): Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:28:04 - [MESSAGE][PASSED] - Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:28:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkFit/a_Login")): Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:28:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Email_email"), "qe1@gmail.com"): Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:28:06 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:28:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Password_password"), "PzcU1FTwvrz2Y2eY7/dWBg=="): Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:28:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:28:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page - WorkFit/button_Sign In")): Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:28:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard - WorkFit/span_Logout")): Object: 'Object Repository/Page_Dashboard - WorkFit/span_Logout' is clicked on
+
+2022-12-21 22:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard - WorkFit/span_Logout' is clicked on
+
+2022-12-21 22:28:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard - WorkFit/button_No, Cancel")): Object: 'Object Repository/Page_Dashboard - WorkFit/button_No, Cancel' is clicked on
+
+2022-12-21 22:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard - WorkFit/button_No, Cancel' is clicked on
+
+2022-12-21 22:28:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-21 22:28:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout/TC_CancelLogin" time="0.298" classname="Test Cases/Logout/TC_CancelLogin" status="PASSED">
+         <system-out><![CDATA[2022-12-21 22:28:11 - [TEST_CASE][PASSED] - Test Cases/Logout/TC_CancelLogin: Test Cases/Logout/TC_CancelLogin
+
+2022-12-21 22:28:12 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-21 22:28:00 - [TEST_SUITE][PASSED] - Logout: Test Cases/Logout/TC_CancelLogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

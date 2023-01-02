@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/AUTH/TC_Login","testCaseId":"Test Cases/AUTH/TC_Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Membership/Positive/TC_SeeListOfMembership","testCaseId":"Test Cases/Membership/Positive/TC_SeeListOfMembership","iterationVariableName":""}
+{"testCaseName":"Test Cases/Membership/Positive/TC_UsedSearchfeature","testCaseId":"Test Cases/Membership/Positive/TC_UsedSearchfeature","iterationVariableName":""}
+{"testCaseName":"Test Cases/Membership/Positive/TC_edit","testCaseId":"Test Cases/Membership/Positive/TC_edit","iterationVariableName":""}
+{"testCaseName":"Test Cases/Membership/Positive/TC_addnewmember","testCaseId":"Test Cases/Membership/Positive/TC_addnewmember","iterationVariableName":""}
+{"testCaseName":"Test Cases/Membership/Positive/TC_cancelEdit","testCaseId":"Test Cases/Membership/Positive/TC_cancelEdit","iterationVariableName":""}

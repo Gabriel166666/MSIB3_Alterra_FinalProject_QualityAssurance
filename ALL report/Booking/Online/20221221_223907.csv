@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Online,Chrome 108.0.0.0,,,2022-12-21 22:39:15,2022-12-21 22:39:43,28.461s,PASSED
+,,,,,,,
+Test Cases/Booking/Online/Search,Chrome 108.0.0.0,,,2022-12-21 22:39:15,2022-12-21 22:39:32,17.239s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 22:39:16,2022-12-21 22:39:19,3.005s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 22:39:19,2022-12-21 22:39:20,0.934s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 22:39:20,2022-12-21 22:39:20,0.196s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 22:39:20,2022-12-21 22:39:20,0.648s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:39:20,2022-12-21 22:39:21,0.960s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 22:39:21,2022-12-21 22:39:22,0.574s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 22:39:22,2022-12-21 22:39:22,0.516s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - WorkFit/div_Booking""))",Chrome 108.0.0.0,,,2022-12-21 22:39:22,2022-12-21 22:39:26,3.284s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Offline Booking - WorkFit/div_Online""))",Chrome 108.0.0.0,,,2022-12-21 22:39:26,2022-12-21 22:39:27,0.793s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Online Booking - WorkFit/div_21 Des 2022 (11.49) - 19 Feb 2023 (11.4_c44332""))",Chrome 108.0.0.0,,,2022-12-21 22:39:27,2022-12-21 22:39:27,0.675s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Online Booking - WorkFit/div_21 Des 2022 (13.29) - 20 Jan 2023 (13.2_3ee283""))",Chrome 108.0.0.0,,,2022-12-21 22:39:27,2022-12-21 22:39:28,0.393s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Online Booking - WorkFit/div_21 Des 2022 (20.28) - 20 Jan 2023 (20.2_585953""))",Chrome 108.0.0.0,,,2022-12-21 22:39:28,2022-12-21 22:39:30,2.601s,PASSED
+"setText(findTestObject(""Object Repository/Page_Manage Online Booking - WorkFit/input_Online_block w-full rounded-lg border_6968a0""), ""ek"")",Chrome 108.0.0.0,,,2022-12-21 22:39:30,2022-12-21 22:39:31,0.868s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Manage Online Booking - WorkFit/div_21 Des 2022 (11.49) - 19 Feb 2023 (11.4_c44332""), 0)",Chrome 108.0.0.0,,,2022-12-21 22:39:31,2022-12-21 22:39:31,0.350s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 22:39:31,2022-12-21 22:39:32,0.847s,PASSED
+,,,,,,,
+Test Cases/Booking/Online/SeeList,Chrome 108.0.0.0,,,2022-12-21 22:39:32,2022-12-21 22:39:43,10.816s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 22:39:33,2022-12-21 22:39:34,1.448s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 22:39:34,2022-12-21 22:39:35,0.648s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 22:39:35,2022-12-21 22:39:35,0.160s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 22:39:35,2022-12-21 22:39:35,0.448s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:39:35,2022-12-21 22:39:36,0.735s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 22:39:36,2022-12-21 22:39:37,0.502s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 22:39:37,2022-12-21 22:39:37,0.386s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - WorkFit/div_Booking""))",Chrome 108.0.0.0,,,2022-12-21 22:39:37,2022-12-21 22:39:40,3.226s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Offline Booking - WorkFit/div_Online""))",Chrome 108.0.0.0,,,2022-12-21 22:39:40,2022-12-21 22:39:41,0.733s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Online Booking - WorkFit/div_21 Des 2022 (11.49) - 19 Feb 2023 (11.4_c44332""))",Chrome 108.0.0.0,,,2022-12-21 22:39:41,2022-12-21 22:39:42,0.659s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Online Booking - WorkFit/div_21 Des 2022 (13.29) - 20 Jan 2023 (13.2_3ee283""))",Chrome 108.0.0.0,,,2022-12-21 22:39:42,2022-12-21 22:39:42,0.379s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Manage Online Booking - WorkFit/div_21 Des 2022 (20.28) - 20 Jan 2023 (20.2_585953""), 0)",Chrome 108.0.0.0,,,2022-12-21 22:39:42,2022-12-21 22:39:42,0.343s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 22:39:42,2022-12-21 22:39:43,0.753s,PASSED

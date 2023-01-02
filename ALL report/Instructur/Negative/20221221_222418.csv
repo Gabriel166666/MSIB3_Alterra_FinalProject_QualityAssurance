@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Negative,,,,2022-12-21 22:24:25,2022-12-21 22:24:28,2.851s,PASSED
+,,,,,,,
+Test Cases/Instorctur/Negative/AddwithoutEmail,,,,2022-12-21 22:24:26,2022-12-21 22:24:26,0.608s,PASSED
+return null,,,,2022-12-21 22:24:26,2022-12-21 22:24:26,0.001s,PASSED
+,,,,,,,
+Test Cases/Instorctur/Negative/AddwithoutImage,,,,2022-12-21 22:24:26,2022-12-21 22:24:27,0.422s,PASSED
+return null,,,,2022-12-21 22:24:27,2022-12-21 22:24:27,0.000s,PASSED
+,,,,,,,
+Test Cases/Instorctur/Negative/AddwithoutName,,,,2022-12-21 22:24:27,2022-12-21 22:24:27,0.501s,PASSED
+return null,,,,2022-12-21 22:24:27,2022-12-21 22:24:27,0.000s,PASSED
+,,,,,,,
+Test Cases/Instorctur/Negative/AddwithoutPhonenumber,,,,2022-12-21 22:24:27,2022-12-21 22:24:28,0.455s,PASSED
+return null,,,,2022-12-21 22:24:28,2022-12-21 22:24:28,0.014s,PASSED
+,,,,,,,
+Test Cases/Instorctur/Negative/CancelDelete,,,,2022-12-21 22:24:28,2022-12-21 22:24:28,0.393s,PASSED
+return null,,,,2022-12-21 22:24:28,2022-12-21 22:24:28,0.000s,PASSED

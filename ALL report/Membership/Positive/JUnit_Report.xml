@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Positive" time="70.259" tests="6" failures="0" errors="0">
+   <testsuite name="Positive" tests="6" failures="0" errors="0" time="70.259" skipped="0" timestamp="2022-12-21 22:28:58" hostname="rivaldo - GABRIEL" id="Test Suites/Membership/Positive">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rivaldo\\Katalon Studio\\WEB CAPSTONE\\Reports\\20221221_222852\\Membership\\Positive\\20221221_222852"/>
+         <property name="logFiles" value="C:\\Users\\rivaldo\\Katalon Studio\\WEB CAPSTONE\\Reports\\20221221_222852\\Membership\\Positive\\20221221_222852\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rivaldo - GABRIEL"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.20"/>
+         <property name="sessionId" value="bd4449bdf83be62825774e3caefe7ff3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AUTH/TC_Login" time="8.81" classname="Test Cases/AUTH/TC_Login" status="PASSED">
+         <system-out><![CDATA[2022-12-21 22:28:58 - [TEST_CASE][PASSED] - Test Cases/AUTH/TC_Login: Test Cases/AUTH/TC_Login
+
+2022-12-21 22:28:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-21 22:28:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-21 22:28:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-21 22:29:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-21 22:29:02 - [TEST_STEP][PASSED] - navigateToUrl("https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"): Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:29:02 - [MESSAGE][PASSED] - Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:29:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-21 22:29:02 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-21 22:29:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkFit/a_Login")): Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:29:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:29:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Email_email"), "qe1@gmail.com"): Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:29:04 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:29:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Password_password"), "PzcU1FTwvrz2Y2eY7/dWBg=="): Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:29:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:29:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page - WorkFit/button_Sign In")): Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:29:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dashboard - WorkFit/h2_Success"), "Success"): Actual text and expected text of test object 'Object Repository/Page_Dashboard - WorkFit/h2_Success' are matched.
+
+2022-12-21 22:29:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dashboard - WorkFit/h2_Success' are matched.
+
+2022-12-21 22:29:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-21 22:29:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Membership/Positive/TC_SeeListOfMembership" time="9.568" classname="Test Cases/Membership/Positive/TC_SeeListOfMembership" status="PASSED">
+         <system-out><![CDATA[2022-12-21 22:29:07 - [TEST_CASE][PASSED] - Test Cases/Membership/Positive/TC_SeeListOfMembership: Test Cases/Membership/Positive/TC_SeeListOfMembership
+
+2022-12-21 22:29:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-21 22:29:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-21 22:29:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-21 22:29:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-21 22:29:09 - [TEST_STEP][PASSED] - navigateToUrl("https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"): Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:29:10 - [MESSAGE][PASSED] - Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:29:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-21 22:29:10 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-21 22:29:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkFit/a_Login")): Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:29:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:29:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Email_email"), "qe1@gmail.com"): Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:29:11 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:29:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Password_password"), "PzcU1FTwvrz2Y2eY7/dWBg=="): Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:29:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:29:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page - WorkFit/button_Sign In")): Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:29:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:29:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard - WorkFit/div_Membership")): Object: 'Object Repository/Page_Dashboard - WorkFit/div_Membership' is clicked on
+
+2022-12-21 22:29:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard - WorkFit/div_Membership' is clicked on
+
+2022-12-21 22:29:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Manage Membership - WorkFit/div_gajanaan wjejemsmsksaarjuki123gmail.com_486e78"), 0): Object 'Object Repository/Page_Manage Membership - WorkFit/div_gajanaan wjejemsmsksaarjuki123gmail.com_486e78' is present
+
+2022-12-21 22:29:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-21 22:29:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Manage Membership - WorkFit/div_gajanaan wjejemsmsksaarjuki123gmail.com_486e78' is present
+
+2022-12-21 22:29:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-21 22:29:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Membership/Positive/TC_UsedSearchfeature" time="10.882" classname="Test Cases/Membership/Positive/TC_UsedSearchfeature" status="PASSED">
+         <system-out><![CDATA[2022-12-21 22:29:17 - [TEST_CASE][PASSED] - Test Cases/Membership/Positive/TC_UsedSearchfeature: Test Cases/Membership/Positive/TC_UsedSearchfeature
+
+2022-12-21 22:29:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-21 22:29:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-21 22:29:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-21 22:29:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-21 22:29:19 - [TEST_STEP][PASSED] - navigateToUrl("https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"): Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:29:19 - [MESSAGE][PASSED] - Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:29:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-21 22:29:19 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-21 22:29:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkFit/a_Login")): Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:29:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:29:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Email_email"), "qe1@gmail.com"): Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:29:21 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:29:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Password_password"), "PzcU1FTwvrz2Y2eY7/dWBg=="): Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:29:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:29:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page - WorkFit/button_Sign In")): Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:29:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard - WorkFit/span_Membership")): Object: 'Object Repository/Page_Dashboard - WorkFit/span_Membership' is clicked on
+
+2022-12-21 22:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard - WorkFit/span_Membership' is clicked on
+
+2022-12-21 22:29:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/div_Membership")): Object: 'Object Repository/Page_Manage Membership - WorkFit/div_Membership' is clicked on
+
+2022-12-21 22:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/div_Membership' is clicked on
+
+2022-12-21 22:29:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/input_Manage Membership_block w-full rounde_92623c")): Object: 'Object Repository/Page_Manage Membership - WorkFit/input_Manage Membership_block w-full rounde_92623c' is clicked on
+
+2022-12-21 22:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/input_Manage Membership_block w-full rounde_92623c' is clicked on
+
+2022-12-21 22:29:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Manage Membership - WorkFit/input_Manage Membership_block w-full rounde_92623c"), "gajan"): Text 'gajan' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Manage Membership_block w-full rounde_92623c'
+
+2022-12-21 22:29:26 - [MESSAGE][PASSED] - Text 'gajan' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Manage Membership_block w-full rounde_92623c'
+
+2022-12-21 22:29:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/div_gajanaan wjejemsmsksaarjuki123gmail.com_486e78")): Object: 'Object Repository/Page_Manage Membership - WorkFit/div_gajanaan wjejemsmsksaarjuki123gmail.com_486e78' is clicked on
+
+2022-12-21 22:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/div_gajanaan wjejemsmsksaarjuki123gmail.com_486e78' is clicked on
+
+2022-12-21 22:29:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-21 22:29:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Membership/Positive/TC_edit" time="12.826" classname="Test Cases/Membership/Positive/TC_edit" status="PASSED">
+         <system-out><![CDATA[2022-12-21 22:29:28 - [TEST_CASE][PASSED] - Test Cases/Membership/Positive/TC_edit: Test Cases/Membership/Positive/TC_edit
+
+2022-12-21 22:29:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-21 22:29:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-21 22:29:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-21 22:29:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-21 22:29:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-21 22:29:29 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-21 22:29:29 - [TEST_STEP][PASSED] - navigateToUrl("https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"): Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:29:30 - [MESSAGE][PASSED] - Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:29:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkFit/a_Login")): Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:29:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:29:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Email_email"), "qe1@gmail.com"): Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:29:32 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:29:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Password_password"), "PzcU1FTwvrz2Y2eY7/dWBg=="): Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:29:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:29:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page - WorkFit/button_Sign In")): Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:29:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:29:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard - WorkFit/div_Membership")): Object: 'Object Repository/Page_Dashboard - WorkFit/div_Membership' is clicked on
+
+2022-12-21 22:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard - WorkFit/div_Membership' is clicked on
+
+2022-12-21 22:29:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/i_Romas Donas_fi fi-rr-menu-dots-vertical")): Object: 'Object Repository/Page_Manage Membership - WorkFit/i_Romas Donas_fi fi-rr-menu-dots-vertical' is clicked on
+
+2022-12-21 22:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/i_Romas Donas_fi fi-rr-menu-dots-vertical' is clicked on
+
+2022-12-21 22:29:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/button_Edit")): Object: 'Object Repository/Page_Manage Membership - WorkFit/button_Edit' is clicked on
+
+2022-12-21 22:29:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/button_Edit' is clicked on
+
+2022-12-21 22:29:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Manage Membership - WorkFit/input_Edit Membership_email"), "rivaldogabriel1@gmail.com"): Text 'rivaldogabriel1@gmail.com' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Edit Membership_email'
+
+2022-12-21 22:29:38 - [MESSAGE][PASSED] - Text 'rivaldogabriel1@gmail.com' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Edit Membership_email'
+
+2022-12-21 22:29:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/button_Save")): Object: 'Object Repository/Page_Manage Membership - WorkFit/button_Save' is clicked on
+
+2022-12-21 22:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/button_Save' is clicked on
+
+2022-12-21 22:29:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/h2_Updated")): Object: 'Object Repository/Page_Manage Membership - WorkFit/h2_Updated' is clicked on
+
+2022-12-21 22:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/h2_Updated' is clicked on
+
+2022-12-21 22:29:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-21 22:29:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Membership/Positive/TC_addnewmember" time="17.069" classname="Test Cases/Membership/Positive/TC_addnewmember" status="PASSED">
+         <system-out><![CDATA[2022-12-21 22:29:40 - [TEST_CASE][PASSED] - Test Cases/Membership/Positive/TC_addnewmember: Test Cases/Membership/Positive/TC_addnewmember
+
+2022-12-21 22:29:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-21 22:29:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-21 22:29:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-21 22:29:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-21 22:29:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-21 22:29:42 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-21 22:29:42 - [TEST_STEP][PASSED] - navigateToUrl("https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"): Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:29:43 - [MESSAGE][PASSED] - Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:29:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkFit/a_Login")): Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:29:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Email_email"), "qe1@gmail.com"): Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:29:44 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:29:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Password_password"), "PzcU1FTwvrz2Y2eY7/dWBg=="): Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:29:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:29:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page - WorkFit/button_Sign In")): Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:29:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:29:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard - WorkFit/div_Membership")): Object: 'Object Repository/Page_Dashboard - WorkFit/div_Membership' is clicked on
+
+2022-12-21 22:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard - WorkFit/div_Membership' is clicked on
+
+2022-12-21 22:29:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/span_Add New")): Object: 'Object Repository/Page_Manage Membership - WorkFit/span_Add New' is clicked on
+
+2022-12-21 22:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/span_Add New' is clicked on
+
+2022-12-21 22:29:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Manage Membership - WorkFit/input_Add New Membership_first_name"), "New"): Text 'New' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Add New Membership_first_name'
+
+2022-12-21 22:29:50 - [MESSAGE][PASSED] - Text 'New' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Add New Membership_first_name'
+
+2022-12-21 22:29:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Manage Membership - WorkFit/input_First Name_last_name"), "Membership"): Text 'Membership' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_First Name_last_name'
+
+2022-12-21 22:29:51 - [MESSAGE][PASSED] - Text 'Membership' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_First Name_last_name'
+
+2022-12-21 22:29:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Manage Membership - WorkFit/input_Last Name_email"), "rivaldogabriel13@gmail.com"): Text 'rivaldogabriel13@gmail.com' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Last Name_email'
+
+2022-12-21 22:29:52 - [MESSAGE][PASSED] - Text 'rivaldogabriel13@gmail.com' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Last Name_email'
+
+2022-12-21 22:29:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Manage Membership - WorkFit/input_Email_password"), "J6IkJA1rD7n3Btce2FGBJg=="): Text ****** has been set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Email_password'
+
+2022-12-21 22:29:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Email_password'
+
+2022-12-21 22:29:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Manage Membership - WorkFit/input_Password must contain minimum one cap_37ad5a"), "098876092222265"): Text '098876092222265' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Password must contain minimum one cap_37ad5a'
+
+2022-12-21 22:29:53 - [MESSAGE][PASSED] - Text '098876092222265' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Password must contain minimum one cap_37ad5a'
+
+2022-12-21 22:29:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/i_Password_fi fi-rr-eye absolute right-0.5 _96921a")): Object: 'Object Repository/Page_Manage Membership - WorkFit/i_Password_fi fi-rr-eye absolute right-0.5 _96921a' is clicked on
+
+2022-12-21 22:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/i_Password_fi fi-rr-eye absolute right-0.5 _96921a' is clicked on
+
+2022-12-21 22:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Manage Membership - WorkFit/input_Email_password_1"), "ribadlo12A"): Text 'ribadlo12A' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Email_password_1'
+
+2022-12-21 22:29:54 - [MESSAGE][PASSED] - Text 'ribadlo12A' is set on object 'Object Repository/Page_Manage Membership - WorkFit/input_Email_password_1'
+
+2022-12-21 22:29:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/button_Save")): Object: 'Object Repository/Page_Manage Membership - WorkFit/button_Save' is clicked on
+
+2022-12-21 22:29:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/button_Save' is clicked on
+
+2022-12-21 22:29:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/button_OK")): Object: 'Object Repository/Page_Manage Membership - WorkFit/button_OK' is clicked on
+
+2022-12-21 22:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/button_OK' is clicked on
+
+2022-12-21 22:29:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/button_Save")): Object: 'Object Repository/Page_Manage Membership - WorkFit/button_Save' is clicked on
+
+2022-12-21 22:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/button_Save' is clicked on
+
+2022-12-21 22:29:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/h2_Saved")): Object: 'Object Repository/Page_Manage Membership - WorkFit/h2_Saved' is clicked on
+
+2022-12-21 22:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/h2_Saved' is clicked on
+
+2022-12-21 22:29:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-21 22:29:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Membership/Positive/TC_cancelEdit" time="10.731" classname="Test Cases/Membership/Positive/TC_cancelEdit" status="PASSED">
+         <system-out><![CDATA[2022-12-21 22:29:57 - [TEST_CASE][PASSED] - Test Cases/Membership/Positive/TC_cancelEdit: Test Cases/Membership/Positive/TC_cancelEdit
+
+2022-12-21 22:29:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-21 22:29:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-21 22:29:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-21 22:29:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-21 22:29:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-21 22:29:59 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-21 22:29:59 - [TEST_STEP][PASSED] - navigateToUrl("https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"): Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:30:00 - [MESSAGE][PASSED] - Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 22:30:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkFit/a_Login")): Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 22:30:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Email_email"), "qe1@gmail.com"): Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:30:02 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 22:30:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Password_password"), "PzcU1FTwvrz2Y2eY7/dWBg=="): Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:30:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 22:30:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page - WorkFit/button_Sign In")): Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 22:30:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard - WorkFit/div_Membership")): Object: 'Object Repository/Page_Dashboard - WorkFit/div_Membership' is clicked on
+
+2022-12-21 22:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard - WorkFit/div_Membership' is clicked on
+
+2022-12-21 22:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/i_Romas Donas_fi fi-rr-menu-dots-vertical")): Object: 'Object Repository/Page_Manage Membership - WorkFit/i_Romas Donas_fi fi-rr-menu-dots-vertical' is clicked on
+
+2022-12-21 22:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/i_Romas Donas_fi fi-rr-menu-dots-vertical' is clicked on
+
+2022-12-21 22:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/button_Edit")): Object: 'Object Repository/Page_Manage Membership - WorkFit/button_Edit' is clicked on
+
+2022-12-21 22:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/button_Edit' is clicked on
+
+2022-12-21 22:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Membership - WorkFit/button_Cancel")): Object: 'Object Repository/Page_Manage Membership - WorkFit/button_Cancel' is clicked on
+
+2022-12-21 22:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Membership - WorkFit/button_Cancel' is clicked on
+
+2022-12-21 22:30:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-21 22:30:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-21 22:28:58 - [TEST_SUITE][PASSED] - Positive: Test Cases/Membership/Positive/TC_cancelEdit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

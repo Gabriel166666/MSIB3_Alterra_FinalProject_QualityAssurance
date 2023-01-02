@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Negative" time="2.851" tests="5" failures="0" errors="0">
+   <testsuite name="Negative" tests="5" failures="0" errors="0" time="2.851" skipped="0" timestamp="2022-12-21 22:24:25" hostname="rivaldo - GABRIEL" id="Test Suites/Instroctur/Negative">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rivaldo\\Katalon Studio\\WEB CAPSTONE\\Reports\\20221221_222418\\Instroctur\\Negative\\20221221_222418"/>
+         <property name="logFiles" value="C:\\Users\\rivaldo\\Katalon Studio\\WEB CAPSTONE\\Reports\\20221221_222418\\Instroctur\\Negative\\20221221_222418\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rivaldo - GABRIEL"/>
+         <property name="hostAddress" value="192.168.1.20"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Instorctur/Negative/AddwithoutEmail" time="0.608" classname="Test Cases/Instorctur/Negative/AddwithoutEmail" status="PASSED">
+         <system-out><![CDATA[2022-12-21 22:24:26 - [TEST_CASE][PASSED] - Test Cases/Instorctur/Negative/AddwithoutEmail: Test Cases/Instorctur/Negative/AddwithoutEmail
+
+2022-12-21 22:24:26 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Instorctur/Negative/AddwithoutImage" time="0.422" classname="Test Cases/Instorctur/Negative/AddwithoutImage" status="PASSED">
+         <system-out><![CDATA[2022-12-21 22:24:26 - [TEST_CASE][PASSED] - Test Cases/Instorctur/Negative/AddwithoutImage: Test Cases/Instorctur/Negative/AddwithoutImage
+
+2022-12-21 22:24:27 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Instorctur/Negative/AddwithoutName" time="0.501" classname="Test Cases/Instorctur/Negative/AddwithoutName" status="PASSED">
+         <system-out><![CDATA[2022-12-21 22:24:27 - [TEST_CASE][PASSED] - Test Cases/Instorctur/Negative/AddwithoutName: Test Cases/Instorctur/Negative/AddwithoutName
+
+2022-12-21 22:24:27 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Instorctur/Negative/AddwithoutPhonenumber" time="0.455" classname="Test Cases/Instorctur/Negative/AddwithoutPhonenumber" status="PASSED">
+         <system-out><![CDATA[2022-12-21 22:24:27 - [TEST_CASE][PASSED] - Test Cases/Instorctur/Negative/AddwithoutPhonenumber: Test Cases/Instorctur/Negative/AddwithoutPhonenumber
+
+2022-12-21 22:24:28 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Instorctur/Negative/CancelDelete" time="0.393" classname="Test Cases/Instorctur/Negative/CancelDelete" status="PASSED">
+         <system-out><![CDATA[2022-12-21 22:24:28 - [TEST_CASE][PASSED] - Test Cases/Instorctur/Negative/CancelDelete: Test Cases/Instorctur/Negative/CancelDelete
+
+2022-12-21 22:24:28 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-21 22:24:25 - [TEST_SUITE][PASSED] - Negative: Test Cases/Instorctur/Negative/CancelDelete]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

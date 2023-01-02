@@ -1,0 +1,93 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positive,Chrome 108.0.0.0,,,2022-12-21 22:28:58,2022-12-21 22:30:08,1m - 10.259s,PASSED
+,,,,,,,
+Test Cases/AUTH/TC_Login,Chrome 108.0.0.0,,,2022-12-21 22:28:58,2022-12-21 22:29:07,8.810s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 22:28:59,2022-12-21 22:29:02,2.762s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 22:29:02,2022-12-21 22:29:02,0.701s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 22:29:02,2022-12-21 22:29:02,0.196s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 22:29:02,2022-12-21 22:29:03,0.651s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:29:03,2022-12-21 22:29:04,1.092s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 22:29:04,2022-12-21 22:29:05,0.664s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 22:29:05,2022-12-21 22:29:05,0.389s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dashboard - WorkFit/h2_Success""), ""Success"")",Chrome 108.0.0.0,,,2022-12-21 22:29:05,2022-12-21 22:29:06,1.087s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 22:29:06,2022-12-21 22:29:07,0.778s,PASSED
+,,,,,,,
+Test Cases/Membership/Positive/TC_SeeListOfMembership,Chrome 108.0.0.0,,,2022-12-21 22:29:07,2022-12-21 22:29:17,9.568s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 22:29:07,2022-12-21 22:29:09,1.485s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 22:29:09,2022-12-21 22:29:10,0.710s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 22:29:10,2022-12-21 22:29:10,0.180s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 22:29:10,2022-12-21 22:29:10,0.450s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:29:10,2022-12-21 22:29:11,0.881s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 22:29:11,2022-12-21 22:29:12,0.581s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 22:29:12,2022-12-21 22:29:12,0.390s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - WorkFit/div_Membership""))",Chrome 108.0.0.0,,,2022-12-21 22:29:12,2022-12-21 22:29:15,3.299s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/div_gajanaan wjejemsmsksaarjuki123gmail.com_486e78""), 0)",Chrome 108.0.0.0,,,2022-12-21 22:29:15,2022-12-21 22:29:16,0.552s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 22:29:16,2022-12-21 22:29:17,0.739s,PASSED
+,,,,,,,
+Test Cases/Membership/Positive/TC_UsedSearchfeature,Chrome 108.0.0.0,,,2022-12-21 22:29:17,2022-12-21 22:29:28,10.882s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 22:29:17,2022-12-21 22:29:19,1.537s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 22:29:19,2022-12-21 22:29:19,0.587s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 22:29:19,2022-12-21 22:29:19,0.140s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 22:29:19,2022-12-21 22:29:20,0.430s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:29:20,2022-12-21 22:29:21,0.850s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 22:29:21,2022-12-21 22:29:21,0.569s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 22:29:21,2022-12-21 22:29:22,0.422s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - WorkFit/span_Membership""))",Chrome 108.0.0.0,,,2022-12-21 22:29:22,2022-12-21 22:29:25,3.226s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/div_Membership""))",Chrome 108.0.0.0,,,2022-12-21 22:29:25,2022-12-21 22:29:25,0.554s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/input_Manage Membership_block w-full rounde_92623c""))",Chrome 108.0.0.0,,,2022-12-21 22:29:25,2022-12-21 22:29:26,0.401s,PASSED
+"setText(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/input_Manage Membership_block w-full rounde_92623c""), ""gajan"")",Chrome 108.0.0.0,,,2022-12-21 22:29:26,2022-12-21 22:29:26,0.727s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/div_gajanaan wjejemsmsksaarjuki123gmail.com_486e78""))",Chrome 108.0.0.0,,,2022-12-21 22:29:26,2022-12-21 22:29:27,0.392s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 22:29:27,2022-12-21 22:29:28,0.727s,PASSED
+,,,,,,,
+Test Cases/Membership/Positive/TC_edit,Chrome 108.0.0.0,,,2022-12-21 22:29:28,2022-12-21 22:29:40,12.826s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 22:29:28,2022-12-21 22:29:29,1.453s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 22:29:29,2022-12-21 22:29:29,0.138s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 22:29:29,2022-12-21 22:29:30,0.685s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 22:29:30,2022-12-21 22:29:31,0.567s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:29:31,2022-12-21 22:29:32,0.828s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 22:29:32,2022-12-21 22:29:32,0.539s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 22:29:32,2022-12-21 22:29:32,0.366s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - WorkFit/div_Membership""))",Chrome 108.0.0.0,,,2022-12-21 22:29:32,2022-12-21 22:29:36,3.150s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/i_Romas Donas_fi fi-rr-menu-dots-vertical""))",Chrome 108.0.0.0,,,2022-12-21 22:29:36,2022-12-21 22:29:36,0.569s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/button_Edit""))",Chrome 108.0.0.0,,,2022-12-21 22:29:36,2022-12-21 22:29:37,0.608s,PASSED
+"setText(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/input_Edit Membership_email""), ""rivaldogabriel1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:29:37,2022-12-21 22:29:38,0.877s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/button_Save""))",Chrome 108.0.0.0,,,2022-12-21 22:29:38,2022-12-21 22:29:38,0.386s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/h2_Updated""))",Chrome 108.0.0.0,,,2022-12-21 22:29:38,2022-12-21 22:29:40,1.610s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 22:29:40,2022-12-21 22:29:40,0.747s,PASSED
+,,,,,,,
+Test Cases/Membership/Positive/TC_addnewmember,Chrome 108.0.0.0,,,2022-12-21 22:29:40,2022-12-21 22:29:57,17.069s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 22:29:41,2022-12-21 22:29:42,1.488s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 22:29:42,2022-12-21 22:29:42,0.132s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 22:29:42,2022-12-21 22:29:43,0.601s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 22:29:43,2022-12-21 22:29:44,0.577s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:29:44,2022-12-21 22:29:44,0.851s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 22:29:44,2022-12-21 22:29:45,0.550s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 22:29:45,2022-12-21 22:29:45,0.401s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - WorkFit/div_Membership""))",Chrome 108.0.0.0,,,2022-12-21 22:29:45,2022-12-21 22:29:49,3.252s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/span_Add New""))",Chrome 108.0.0.0,,,2022-12-21 22:29:49,2022-12-21 22:29:49,0.579s,PASSED
+"setText(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/input_Add New Membership_first_name""), ""New"")",Chrome 108.0.0.0,,,2022-12-21 22:29:49,2022-12-21 22:29:50,0.974s,PASSED
+"setText(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/input_First Name_last_name""), ""Membership"")",Chrome 108.0.0.0,,,2022-12-21 22:29:50,2022-12-21 22:29:51,0.860s,PASSED
+"setText(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/input_Last Name_email""), ""rivaldogabriel13@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:29:51,2022-12-21 22:29:52,0.781s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/input_Email_password""), ""J6IkJA1rD7n3Btce2FGBJg=="")",Chrome 108.0.0.0,,,2022-12-21 22:29:52,2022-12-21 22:29:52,0.604s,PASSED
+"setText(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/input_Password must contain minimum one cap_37ad5a""), ""098876092222265"")",Chrome 108.0.0.0,,,2022-12-21 22:29:52,2022-12-21 22:29:53,0.861s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/i_Password_fi fi-rr-eye absolute right-0.5 _96921a""))",Chrome 108.0.0.0,,,2022-12-21 22:29:53,2022-12-21 22:29:54,0.486s,PASSED
+"setText(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/input_Email_password_1""), ""ribadlo12A"")",Chrome 108.0.0.0,,,2022-12-21 22:29:54,2022-12-21 22:29:54,0.695s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/button_Save""))",Chrome 108.0.0.0,,,2022-12-21 22:29:54,2022-12-21 22:29:55,0.502s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/button_OK""))",Chrome 108.0.0.0,,,2022-12-21 22:29:55,2022-12-21 22:29:56,0.597s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/button_Save""))",Chrome 108.0.0.0,,,2022-12-21 22:29:56,2022-12-21 22:29:56,0.635s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/h2_Saved""))",Chrome 108.0.0.0,,,2022-12-21 22:29:56,2022-12-21 22:29:57,0.588s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 22:29:57,2022-12-21 22:29:57,0.733s,PASSED
+,,,,,,,
+Test Cases/Membership/Positive/TC_cancelEdit,Chrome 108.0.0.0,,,2022-12-21 22:29:57,2022-12-21 22:30:08,10.731s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 22:29:58,2022-12-21 22:29:59,1.436s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 22:29:59,2022-12-21 22:29:59,0.123s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 22:29:59,2022-12-21 22:30:00,0.868s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 22:30:00,2022-12-21 22:30:01,0.608s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:30:01,2022-12-21 22:30:02,0.807s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 22:30:02,2022-12-21 22:30:02,0.615s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 22:30:02,2022-12-21 22:30:03,0.493s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - WorkFit/div_Membership""))",Chrome 108.0.0.0,,,2022-12-21 22:30:03,2022-12-21 22:30:06,3.079s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/i_Romas Donas_fi fi-rr-menu-dots-vertical""))",Chrome 108.0.0.0,,,2022-12-21 22:30:06,2022-12-21 22:30:06,0.588s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/button_Edit""))",Chrome 108.0.0.0,,,2022-12-21 22:30:06,2022-12-21 22:30:07,0.526s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Membership - WorkFit/button_Cancel""))",Chrome 108.0.0.0,,,2022-12-21 22:30:07,2022-12-21 22:30:07,0.518s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 22:30:07,2022-12-21 22:30:08,0.718s,PASSED

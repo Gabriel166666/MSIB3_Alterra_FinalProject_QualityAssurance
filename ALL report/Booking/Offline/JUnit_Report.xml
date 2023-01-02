@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Offline" time="65.649" tests="4" failures="0" errors="0">
+   <testsuite name="Offline" tests="4" failures="0" errors="0" time="65.649" skipped="0" timestamp="2022-12-21 21:30:20" hostname="rivaldo - GABRIEL" id="Test Suites/Booking/Offline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rivaldo\\Katalon Studio\\WEB CAPSTONE\\Reports\\20221221_213011\\Booking\\Offline\\20221221_213012"/>
+         <property name="logFiles" value="C:\\Users\\rivaldo\\Katalon Studio\\WEB CAPSTONE\\Reports\\20221221_213011\\Booking\\Offline\\20221221_213012\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rivaldo - GABRIEL"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.20"/>
+         <property name="sessionId" value="d4d50ffdc8512ce991297db9961d9da6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Booking/Offline/SeeClass" time="20.8" classname="Test Cases/Booking/Offline/SeeClass" status="PASSED">
+         <system-out><![CDATA[2022-12-21 21:30:20 - [TEST_CASE][PASSED] - Test Cases/Booking/Offline/SeeClass: Test Cases/Booking/Offline/SeeClass
+
+2022-12-21 21:30:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-21 21:30:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-21 21:30:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-21 21:30:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-21 21:30:23 - [TEST_STEP][PASSED] - navigateToUrl("https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"): Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 21:30:24 - [MESSAGE][PASSED] - Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 21:30:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-21 21:30:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-21 21:30:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkFit/a_Login")): Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 21:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 21:30:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Email_email"), "qe1@gmail.com"): Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 21:30:26 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 21:30:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Password_password"), "PzcU1FTwvrz2Y2eY7/dWBg=="): Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 21:30:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 21:30:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page - WorkFit/button_Sign In")): Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 21:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 21:30:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard - WorkFit/div_Booking")): Object: 'Object Repository/Page_Dashboard - WorkFit/div_Booking' is clicked on
+
+2022-12-21 21:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard - WorkFit/div_Booking' is clicked on
+
+2022-12-21 21:30:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_Offline")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Offline' is clicked on
+
+2022-12-21 21:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Offline' is clicked on
+
+2022-12-21 21:30:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_ZumbaActiveSuriptoRp 149.000Eko Mamatqe_5bad3c")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_ZumbaActiveSuriptoRp 149.000Eko Mamatqe_5bad3c' is clicked on
+
+2022-12-21 21:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_ZumbaActiveSuriptoRp 149.000Eko Mamatqe_5bad3c' is clicked on
+
+2022-12-21 21:30:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (11.45) - 21 Mar 2023 (11.4_7a5d5f")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (11.45) - 21 Mar 2023 (11.4_7a5d5f' is clicked on
+
+2022-12-21 21:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (11.45) - 21 Mar 2023 (11.4_7a5d5f' is clicked on
+
+2022-12-21 21:30:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (15.00) - 20 Jan 2023 (15.0_978c0c")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (15.00) - 20 Jan 2023 (15.0_978c0c' is clicked on
+
+2022-12-21 21:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (15.00) - 20 Jan 2023 (15.0_978c0c' is clicked on
+
+2022-12-21 21:30:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (18.36) - 20 Jan 2023 (18.3_3b9587")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (18.36) - 20 Jan 2023 (18.3_3b9587' is clicked on
+
+2022-12-21 21:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (18.36) - 20 Jan 2023 (18.3_3b9587' is clicked on
+
+2022-12-21 21:30:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (20.10) - 20 Jan 2023 (20.1_efbc6a")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (20.10) - 20 Jan 2023 (20.1_efbc6a' is clicked on
+
+2022-12-21 21:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (20.10) - 20 Jan 2023 (20.1_efbc6a' is clicked on
+
+2022-12-21 21:30:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (21.21) - 20 Jan 2023 (21.2_88f6e6")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (21.21) - 20 Jan 2023 (21.2_88f6e6' is clicked on
+
+2022-12-21 21:30:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (21.21) - 20 Jan 2023 (21.2_88f6e6' is clicked on
+
+2022-12-21 21:30:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-21 21:30:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Offline/Search" time="16.751" classname="Test Cases/Booking/Offline/Search" status="PASSED">
+         <system-out><![CDATA[2022-12-21 21:30:41 - [TEST_CASE][PASSED] - Test Cases/Booking/Offline/Search: Test Cases/Booking/Offline/Search
+
+2022-12-21 21:30:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-21 21:30:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-21 21:30:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-21 21:30:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-21 21:30:42 - [TEST_STEP][PASSED] - navigateToUrl("https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"): Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 21:30:43 - [MESSAGE][PASSED] - Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 21:30:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-21 21:30:43 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-21 21:30:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkFit/a_Login")): Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 21:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 21:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Email_email")): Object: 'Object Repository/Page_Login Page - WorkFit/input_Email_email' is clicked on
+
+2022-12-21 21:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page - WorkFit/input_Email_email' is clicked on
+
+2022-12-21 21:30:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Email_email"), "qe1@gmail.com"): Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 21:30:45 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 21:30:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Password_password"), "PzcU1FTwvrz2Y2eY7/dWBg=="): Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 21:30:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 21:30:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page - WorkFit/button_Sign In")): Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 21:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 21:30:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard - WorkFit/span_Booking")): Object: 'Object Repository/Page_Dashboard - WorkFit/span_Booking' is clicked on
+
+2022-12-21 21:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard - WorkFit/span_Booking' is clicked on
+
+2022-12-21 21:30:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_Booking")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Booking' is clicked on
+
+2022-12-21 21:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Booking' is clicked on
+
+2022-12-21 21:30:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/input_Online_block w-full rounded-lg border_6968a0")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/input_Online_block w-full rounded-lg border_6968a0' is clicked on
+
+2022-12-21 21:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/input_Online_block w-full rounded-lg border_6968a0' is clicked on
+
+2022-12-21 21:30:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (11.45) - 21 Mar 2023 (11.4_7a5d5f")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (11.45) - 21 Mar 2023 (11.4_7a5d5f' is clicked on
+
+2022-12-21 21:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (11.45) - 21 Mar 2023 (11.4_7a5d5f' is clicked on
+
+2022-12-21 21:30:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (18.36) - 20 Jan 2023 (18.3_3b9587")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (18.36) - 20 Jan 2023 (18.3_3b9587' is clicked on
+
+2022-12-21 21:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (18.36) - 20 Jan 2023 (18.3_3b9587' is clicked on
+
+2022-12-21 21:30:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (21.21) - 20 Jan 2023 (21.2_88f6e6")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (21.21) - 20 Jan 2023 (21.2_88f6e6' is clicked on
+
+2022-12-21 21:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_21 Des 2022 (21.21) - 20 Jan 2023 (21.2_88f6e6' is clicked on
+
+2022-12-21 21:30:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/input_Online_block w-full rounded-lg border_6968a0"), "ek"): Text 'ek' is set on object 'Object Repository/Page_Manage Offline Booking - WorkFit/input_Online_block w-full rounded-lg border_6968a0'
+
+2022-12-21 21:30:57 - [MESSAGE][PASSED] - Text 'ek' is set on object 'Object Repository/Page_Manage Offline Booking - WorkFit/input_Online_block w-full rounded-lg border_6968a0'
+
+2022-12-21 21:30:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-21 21:30:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Offline/Edit" time="13.308" classname="Test Cases/Booking/Offline/Edit" status="PASSED">
+         <system-out><![CDATA[2022-12-21 21:30:57 - [TEST_CASE][PASSED] - Test Cases/Booking/Offline/Edit: Test Cases/Booking/Offline/Edit
+
+2022-12-21 21:30:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-21 21:30:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-21 21:30:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-21 21:30:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-21 21:30:59 - [TEST_STEP][PASSED] - navigateToUrl("https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"): Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 21:31:00 - [MESSAGE][PASSED] - Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 21:31:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-21 21:31:00 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-21 21:31:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkFit/a_Login")): Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 21:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 21:31:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Email_email"), "qe1@gmail.com"): Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 21:31:01 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 21:31:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Password_password"), "PzcU1FTwvrz2Y2eY7/dWBg=="): Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 21:31:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 21:31:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page - WorkFit/button_Sign In")): Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 21:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 21:31:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard - WorkFit/div_Booking")): Object: 'Object Repository/Page_Dashboard - WorkFit/div_Booking' is clicked on
+
+2022-12-21 21:31:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard - WorkFit/div_Booking' is clicked on
+
+2022-12-21 21:31:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/i_PAID_fi fi-br-menu-dots-vertical")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/i_PAID_fi fi-br-menu-dots-vertical' is clicked on
+
+2022-12-21 21:31:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/i_PAID_fi fi-br-menu-dots-vertical' is clicked on
+
+2022-12-21 21:31:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/button_Edit")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/button_Edit' is clicked on
+
+2022-12-21 21:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/button_Edit' is clicked on
+
+2022-12-21 21:31:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_Plank - Mane Mane Mane_css-ackcql")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Plank - Mane Mane Mane_css-ackcql' is clicked on
+
+2022-12-21 21:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Plank - Mane Mane Mane_css-ackcql' is clicked on
+
+2022-12-21 21:31:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_Plank - Mane Mane Mane")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Plank - Mane Mane Mane' is clicked on
+
+2022-12-21 21:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Plank - Mane Mane Mane' is clicked on
+
+2022-12-21 21:31:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/button_Save")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/button_Save' is clicked on
+
+2022-12-21 21:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/button_Save' is clicked on
+
+2022-12-21 21:31:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/h2_Updated")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/h2_Updated' is clicked on
+
+2022-12-21 21:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/h2_Updated' is clicked on
+
+2022-12-21 21:31:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-21 21:31:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Booking/Offline/Add" time="14.407" classname="Test Cases/Booking/Offline/Add" status="PASSED">
+         <system-out><![CDATA[2022-12-21 21:31:11 - [TEST_CASE][PASSED] - Test Cases/Booking/Offline/Add: Test Cases/Booking/Offline/Add
+
+2022-12-21 21:31:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-21 21:31:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-21 21:31:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-21 21:31:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-21 21:31:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-21 21:31:13 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-21 21:31:13 - [TEST_STEP][PASSED] - navigateToUrl("https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"): Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 21:31:13 - [MESSAGE][PASSED] - Navigate to 'https://fe-react-o3tcnp4lu-capstone-6.vercel.app/' successfully
+
+2022-12-21 21:31:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WorkFit/a_Login")): Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 21:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WorkFit/a_Login' is clicked on
+
+2022-12-21 21:31:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Email_email"), "qe1@gmail.com"): Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 21:31:15 - [MESSAGE][PASSED] - Text 'qe1@gmail.com' is set on object 'Object Repository/Page_Login Page - WorkFit/input_Email_email'
+
+2022-12-21 21:31:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Login Page - WorkFit/input_Password_password"), "PzcU1FTwvrz2Y2eY7/dWBg=="): Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 21:31:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page - WorkFit/input_Password_password'
+
+2022-12-21 21:31:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login Page - WorkFit/button_Sign In")): Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 21:31:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page - WorkFit/button_Sign In' is clicked on
+
+2022-12-21 21:31:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard - WorkFit/div_Booking")): Object: 'Object Repository/Page_Dashboard - WorkFit/div_Booking' is clicked on
+
+2022-12-21 21:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard - WorkFit/div_Booking' is clicked on
+
+2022-12-21 21:31:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/button_Add New")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/button_Add New' is clicked on
+
+2022-12-21 21:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/button_Add New' is clicked on
+
+2022-12-21 21:31:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/svg_Select membership_css-8mmkcg")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/svg_Select membership_css-8mmkcg' is clicked on
+
+2022-12-21 21:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/svg_Select membership_css-8mmkcg' is clicked on
+
+2022-12-21 21:31:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_Annisa Kumalasari")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Annisa Kumalasari' is clicked on
+
+2022-12-21 21:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Annisa Kumalasari' is clicked on
+
+2022-12-21 21:31:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_Select offline classes_css-1gtu0rj-indi_5dc625")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Select offline classes_css-1gtu0rj-indi_5dc625' is clicked on
+
+2022-12-21 21:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Select offline classes_css-1gtu0rj-indi_5dc625' is clicked on
+
+2022-12-21 21:31:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/div_Pull Up - Mane")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Pull Up - Mane' is clicked on
+
+2022-12-21 21:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/div_Pull Up - Mane' is clicked on
+
+2022-12-21 21:31:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/button_Save")): Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/button_Save' is clicked on
+
+2022-12-21 21:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Manage Offline Booking - WorkFit/button_Save' is clicked on
+
+2022-12-21 21:31:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Manage Offline Booking - WorkFit/h2_Saved"), "Saved"): Actual text and expected text of test object 'Object Repository/Page_Manage Offline Booking - WorkFit/h2_Saved' are matched.
+
+2022-12-21 21:31:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Manage Offline Booking - WorkFit/h2_Saved' are matched.
+
+2022-12-21 21:31:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-21 21:31:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-21 21:30:20 - [TEST_SUITE][PASSED] - Offline: Test Cases/Booking/Offline/Add]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

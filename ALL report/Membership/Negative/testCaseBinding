@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Membership/Negative/addnewwithoutfirstlnam","testCaseId":"Test Cases/Membership/Negative/addnewwithoutfirstlnam","iterationVariableName":""}
+{"testCaseName":"Test Cases/Membership/Negative/without email","testCaseId":"Test Cases/Membership/Negative/without email","iterationVariableName":""}
+{"testCaseName":"Test Cases/Membership/Negative/withoutlastname","testCaseId":"Test Cases/Membership/Negative/withoutlastname","iterationVariableName":""}
+{"testCaseName":"Test Cases/Membership/Negative/withoutpassword","testCaseId":"Test Cases/Membership/Negative/withoutpassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/Membership/Negative/withoutphonenumber","testCaseId":"Test Cases/Membership/Negative/withoutphonenumber","iterationVariableName":""}

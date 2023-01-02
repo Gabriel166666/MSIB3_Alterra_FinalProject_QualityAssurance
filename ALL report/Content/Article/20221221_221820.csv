@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Article,Chrome 108.0.0.0,,,2022-12-21 22:18:31,2022-12-21 22:19:29,57.684s,PASSED
+,,,,,,,
+Test Cases/Content/Articlee/Search,Chrome 108.0.0.0,,,2022-12-21 22:18:32,2022-12-21 22:18:45,13.123s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 22:18:32,2022-12-21 22:18:35,3.074s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 22:18:35,2022-12-21 22:18:36,0.847s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 22:18:36,2022-12-21 22:18:36,0.199s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 22:18:36,2022-12-21 22:18:37,0.572s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:18:37,2022-12-21 22:18:38,1.109s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 22:18:38,2022-12-21 22:18:39,0.650s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 22:18:39,2022-12-21 22:18:39,0.491s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - WorkFit/div_Article""))",Chrome 108.0.0.0,,,2022-12-21 22:18:39,2022-12-21 22:18:43,3.449s,PASSED
+"setText(findTestObject(""Object Repository/Page_Manage Article - WorkFit/input_Manage Article_block w-full rounded-l_8014e5""), ""test"")",Chrome 108.0.0.0,,,2022-12-21 22:18:43,2022-12-21 22:18:44,1.004s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Article - WorkFit/div_Manage ArticleAdd New""))",Chrome 108.0.0.0,,,2022-12-21 22:18:44,2022-12-21 22:18:44,0.389s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 22:18:44,2022-12-21 22:18:45,0.826s,PASSED
+,,,,,,,
+Test Cases/Content/Articlee/seelist,Chrome 108.0.0.0,,,2022-12-21 22:18:45,2022-12-21 22:18:54,9.411s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 22:18:45,2022-12-21 22:18:46,1.350s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 22:18:46,2022-12-21 22:18:47,0.712s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 22:18:47,2022-12-21 22:18:47,0.167s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 22:18:47,2022-12-21 22:18:48,0.419s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:18:48,2022-12-21 22:18:49,0.841s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 22:18:49,2022-12-21 22:18:49,0.577s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 22:18:49,2022-12-21 22:18:50,0.461s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - WorkFit/div_Article""))",Chrome 108.0.0.0,,,2022-12-21 22:18:50,2022-12-21 22:18:53,3.136s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Manage Article - WorkFit/div_Coba editCoba editCoba add edit""), 0)",Chrome 108.0.0.0,,,2022-12-21 22:18:53,2022-12-21 22:18:53,0.703s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 22:18:53,2022-12-21 22:18:54,0.786s,PASSED
+,,,,,,,
+Test Cases/Content/Articlee/Edit,Chrome 108.0.0.0,,,2022-12-21 22:18:54,2022-12-21 22:19:07,13.277s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 22:18:54,2022-12-21 22:18:56,1.427s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 22:18:56,2022-12-21 22:18:57,0.807s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 22:18:57,2022-12-21 22:18:57,0.147s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 22:18:57,2022-12-21 22:18:57,0.437s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:18:57,2022-12-21 22:18:58,1.014s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 22:18:58,2022-12-21 22:18:59,0.535s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 22:18:59,2022-12-21 22:18:59,0.482s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - WorkFit/div_Article""))",Chrome 108.0.0.0,,,2022-12-21 22:18:59,2022-12-21 22:19:03,3.402s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Article - WorkFit/i_Add New_fi fi-br-menu-dots-vertical""))",Chrome 108.0.0.0,,,2022-12-21 22:19:03,2022-12-21 22:19:03,0.547s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Article - WorkFit/button_Edit""))",Chrome 108.0.0.0,,,2022-12-21 22:19:03,2022-12-21 22:19:04,0.512s,PASSED
+"setText(findTestObject(""Object Repository/Page_Manage Article - WorkFit/textarea_Coba add""), ""Coba add edit"")",Chrome 108.0.0.0,,,2022-12-21 22:19:04,2022-12-21 22:19:05,0.953s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Article - WorkFit/button_Save""))",Chrome 108.0.0.0,,,2022-12-21 22:19:05,2022-12-21 22:19:05,0.387s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Manage Article - WorkFit/h2_Update""), ""Update"")",Chrome 108.0.0.0,,,2022-12-21 22:19:05,2022-12-21 22:19:07,1.566s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 22:19:07,2022-12-21 22:19:07,0.797s,PASSED
+,,,,,,,
+Test Cases/Content/Articlee/delete,Chrome 108.0.0.0,,,2022-12-21 22:19:07,2022-12-21 22:19:18,10.569s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 22:19:08,2022-12-21 22:19:09,1.358s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 22:19:09,2022-12-21 22:19:10,0.602s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 22:19:10,2022-12-21 22:19:10,0.166s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 22:19:10,2022-12-21 22:19:10,0.415s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:19:10,2022-12-21 22:19:11,0.811s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 22:19:11,2022-12-21 22:19:12,0.553s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 22:19:12,2022-12-21 22:19:12,0.482s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - WorkFit/div_Article""))",Chrome 108.0.0.0,,,2022-12-21 22:19:12,2022-12-21 22:19:15,3.065s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Article - WorkFit/button_Add New_absolute right-0 top-0 curso_ac71ed""))",Chrome 108.0.0.0,,,2022-12-21 22:19:15,2022-12-21 22:19:16,1.056s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Article - WorkFit/button_Delete""))",Chrome 108.0.0.0,,,2022-12-21 22:19:16,2022-12-21 22:19:17,0.489s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Article - WorkFit/button_No, Cancel""))",Chrome 108.0.0.0,,,2022-12-21 22:19:17,2022-12-21 22:19:17,0.491s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 22:19:17,2022-12-21 22:19:18,0.792s,PASSED
+,,,,,,,
+Test Cases/Content/Articlee/add,Chrome 108.0.0.0,,,2022-12-21 22:19:18,2022-12-21 22:19:29,10.838s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 22:19:18,2022-12-21 22:19:20,1.414s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 22:19:20,2022-12-21 22:19:21,0.793s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 22:19:21,2022-12-21 22:19:21,0.155s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 22:19:21,2022-12-21 22:19:21,0.423s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 22:19:21,2022-12-21 22:19:22,0.829s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 22:19:22,2022-12-21 22:19:22,0.544s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 22:19:22,2022-12-21 22:19:23,0.494s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard - WorkFit/span_Article""))",Chrome 108.0.0.0,,,2022-12-21 22:19:23,2022-12-21 22:19:26,3.066s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Article - WorkFit/div_Article""))",Chrome 108.0.0.0,,,2022-12-21 22:19:26,2022-12-21 22:19:27,0.740s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Article - WorkFit/span_Add New""))",Chrome 108.0.0.0,,,2022-12-21 22:19:27,2022-12-21 22:19:27,0.367s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Article - WorkFit/input_Add New Article_title""))",Chrome 108.0.0.0,,,2022-12-21 22:19:27,2022-12-21 22:19:28,0.525s,PASSED
+"click(findTestObject(""Object Repository/Page_Manage Article - WorkFit/button_Cancel""))",Chrome 108.0.0.0,,,2022-12-21 22:19:28,2022-12-21 22:19:28,0.386s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 22:19:28,2022-12-21 22:19:29,0.817s,PASSED

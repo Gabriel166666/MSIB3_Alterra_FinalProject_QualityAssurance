@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 108.0.0.0,,,2022-12-21 21:18:11,2022-12-21 21:19:30,1m - 19.194s,PASSED
+,,,,,,,
+Test Cases/AUTH/TC_InvalidEmailInvalidPassword,Chrome 108.0.0.0,,,2022-12-21 21:18:11,2022-12-21 21:18:21,9.939s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 21:18:12,2022-12-21 21:18:15,2.750s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 21:18:15,2022-12-21 21:18:16,1.163s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 21:18:16,2022-12-21 21:18:17,0.677s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""lala@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 21:18:17,2022-12-21 21:18:18,1.072s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""CSt51UwWECc="")",Chrome 108.0.0.0,,,2022-12-21 21:18:18,2022-12-21 21:18:18,0.502s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 21:18:18,2022-12-21 21:18:19,0.521s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login Page - WorkFit/h2_Sorry""), ""Sorry"")",Chrome 108.0.0.0,,,2022-12-21 21:18:19,2022-12-21 21:18:21,1.936s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 21:18:21,2022-12-21 21:18:21,0.744s,PASSED
+,,,,,,,
+Test Cases/AUTH/TC_InvalidEmailNullPassword,Chrome 108.0.0.0,,,2022-12-21 21:18:21,2022-12-21 21:18:28,6.820s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 21:18:22,2022-12-21 21:18:23,1.301s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 21:18:23,2022-12-21 21:18:23,0.157s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 21:18:23,2022-12-21 21:18:25,1.576s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 21:18:25,2022-12-21 21:18:25,0.532s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 21:18:25,2022-12-21 21:18:26,0.961s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 21:18:26,2022-12-21 21:18:27,0.508s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/label_Password""))",Chrome 108.0.0.0,,,2022-12-21 21:18:27,2022-12-21 21:18:27,0.396s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 21:18:27,2022-12-21 21:18:28,0.386s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 21:18:28,2022-12-21 21:18:28,0.712s,PASSED
+,,,,,,,
+Test Cases/AUTH/TC_InvalidemailValidpassword,Chrome 108.0.0.0,,,2022-12-21 21:18:28,2022-12-21 21:18:37,8.856s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 21:18:29,2022-12-21 21:18:30,1.240s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 21:18:30,2022-12-21 21:18:30,0.131s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 21:18:30,2022-12-21 21:18:32,1.725s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 21:18:32,2022-12-21 21:18:32,0.542s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""lalal@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 21:18:32,2022-12-21 21:18:33,0.839s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 21:18:33,2022-12-21 21:18:34,0.557s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 21:18:34,2022-12-21 21:18:34,0.368s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login Page - WorkFit/h2_Sorry""), ""Sorry"")",Chrome 108.0.0.0,,,2022-12-21 21:18:34,2022-12-21 21:18:36,2.453s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 21:18:36,2022-12-21 21:18:37,0.703s,PASSED
+,,,,,,,
+Test Cases/AUTH/TE_ValidemailNullPassword,Chrome 108.0.0.0,,,2022-12-21 21:18:37,2022-12-21 21:18:43,6.216s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 21:18:37,2022-12-21 21:18:39,1.425s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 21:18:39,2022-12-21 21:18:39,0.136s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 21:18:39,2022-12-21 21:18:40,1.201s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 21:18:40,2022-12-21 21:18:41,0.578s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 21:18:41,2022-12-21 21:18:42,0.861s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 21:18:42,2022-12-21 21:18:42,0.527s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 21:18:42,2022-12-21 21:18:43,0.506s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 21:18:43,2022-12-21 21:18:43,0.702s,PASSED
+,,,,,,,
+Test Cases/AUTH/TC_NulEmailInvalidPassword,Chrome 108.0.0.0,,,2022-12-21 21:18:43,2022-12-21 21:18:50,6.510s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 21:18:44,2022-12-21 21:18:45,1.491s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 21:18:45,2022-12-21 21:18:45,0.151s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 21:18:45,2022-12-21 21:18:47,1.510s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 21:18:47,2022-12-21 21:18:47,0.527s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""))",Chrome 108.0.0.0,,,2022-12-21 21:18:47,2022-12-21 21:18:48,0.509s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 21:18:48,2022-12-21 21:18:48,0.458s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 21:18:48,2022-12-21 21:18:49,0.529s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/label_Password""))",Chrome 108.0.0.0,,,2022-12-21 21:18:49,2022-12-21 21:18:49,0.397s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 21:18:49,2022-12-21 21:18:50,0.688s,PASSED
+,,,,,,,
+Test Cases/AUTH/TC_NullemailValidPassword,Chrome 108.0.0.0,,,2022-12-21 21:18:50,2022-12-21 21:18:57,7.256s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 21:18:50,2022-12-21 21:18:52,1.561s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 21:18:52,2022-12-21 21:18:52,0.132s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 21:18:52,2022-12-21 21:18:54,2.380s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 21:18:54,2022-12-21 21:18:55,0.534s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""))",Chrome 108.0.0.0,,,2022-12-21 21:18:55,2022-12-21 21:18:55,0.486s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""Z+3oZvuwbXj0KFUP8bHFSg=="")",Chrome 108.0.0.0,,,2022-12-21 21:18:55,2022-12-21 21:18:56,0.421s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 21:18:56,2022-12-21 21:18:56,0.389s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/label_Password""))",Chrome 108.0.0.0,,,2022-12-21 21:18:56,2022-12-21 21:18:56,0.399s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 21:18:56,2022-12-21 21:18:57,0.699s,PASSED
+,,,,,,,
+Test Cases/AUTH/TC_ValidEmailInvalidPassword,Chrome 108.0.0.0,,,2022-12-21 21:18:57,2022-12-21 21:19:11,14.382s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 21:18:57,2022-12-21 21:18:59,1.446s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 21:18:59,2022-12-21 21:18:59,0.127s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 21:18:59,2022-12-21 21:19:06,6.587s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 21:19:06,2022-12-21 21:19:06,0.597s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 21:19:06,2022-12-21 21:19:07,0.832s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""QZ06GTLhlug="")",Chrome 108.0.0.0,,,2022-12-21 21:19:07,2022-12-21 21:19:08,0.588s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 21:19:08,2022-12-21 21:19:08,0.395s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login Page - WorkFit/h2_Sorry""), ""Sorry"")",Chrome 108.0.0.0,,,2022-12-21 21:19:08,2022-12-21 21:19:11,2.830s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 21:19:11,2022-12-21 21:19:11,0.676s,PASSED
+,,,,,,,
+Test Cases/AUTH/TC_withnullemailpassword,Chrome 108.0.0.0,,,2022-12-21 21:19:11,2022-12-21 21:19:19,7.436s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 21:19:12,2022-12-21 21:19:13,1.321s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 21:19:13,2022-12-21 21:19:13,0.133s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 21:19:13,2022-12-21 21:19:16,2.984s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 21:19:16,2022-12-21 21:19:17,0.566s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""))",Chrome 108.0.0.0,,,2022-12-21 21:19:17,2022-12-21 21:19:17,0.515s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 21:19:17,2022-12-21 21:19:18,0.406s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/label_Password""))",Chrome 108.0.0.0,,,2022-12-21 21:19:18,2022-12-21 21:19:18,0.417s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 21:19:18,2022-12-21 21:19:19,0.761s,PASSED
+,,,,,,,
+Test Cases/AUTH/TC_Login,Chrome 108.0.0.0,,,2022-12-21 21:19:19,2022-12-21 21:19:30,11.397s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-21 21:19:19,2022-12-21 21:19:21,1.315s,PASSED
+"navigateToUrl(""https://fe-react-o3tcnp4lu-capstone-6.vercel.app/"")",Chrome 108.0.0.0,,,2022-12-21 21:19:21,2022-12-21 21:19:26,5.140s,PASSED
+maximizeWindow(),Chrome 108.0.0.0,,,2022-12-21 21:19:26,2022-12-21 21:19:26,0.135s,PASSED
+"click(findTestObject(""Object Repository/Page_WorkFit/a_Login""))",Chrome 108.0.0.0,,,2022-12-21 21:19:26,2022-12-21 21:19:26,0.542s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Email_email""), ""qe1@gmail.com"")",Chrome 108.0.0.0,,,2022-12-21 21:19:26,2022-12-21 21:19:27,0.813s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page - WorkFit/input_Password_password""), ""PzcU1FTwvrz2Y2eY7/dWBg=="")",Chrome 108.0.0.0,,,2022-12-21 21:19:27,2022-12-21 21:19:28,0.523s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page - WorkFit/button_Sign In""))",Chrome 108.0.0.0,,,2022-12-21 21:19:28,2022-12-21 21:19:28,0.382s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dashboard - WorkFit/h2_Success""), ""Success"")",Chrome 108.0.0.0,,,2022-12-21 21:19:28,2022-12-21 21:19:30,1.506s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-21 21:19:30,2022-12-21 21:19:30,0.701s,PASSED

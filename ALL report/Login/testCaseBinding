@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/AUTH/TC_InvalidEmailInvalidPassword","testCaseId":"Test Cases/AUTH/TC_InvalidEmailInvalidPassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/AUTH/TC_InvalidEmailNullPassword","testCaseId":"Test Cases/AUTH/TC_InvalidEmailNullPassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/AUTH/TC_InvalidemailValidpassword","testCaseId":"Test Cases/AUTH/TC_InvalidemailValidpassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/AUTH/TE_ValidemailNullPassword","testCaseId":"Test Cases/AUTH/TE_ValidemailNullPassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/AUTH/TC_NulEmailInvalidPassword","testCaseId":"Test Cases/AUTH/TC_NulEmailInvalidPassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/AUTH/TC_NullemailValidPassword","testCaseId":"Test Cases/AUTH/TC_NullemailValidPassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/AUTH/TC_ValidEmailInvalidPassword","testCaseId":"Test Cases/AUTH/TC_ValidEmailInvalidPassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/AUTH/TC_withnullemailpassword","testCaseId":"Test Cases/AUTH/TC_withnullemailpassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/AUTH/TC_Login","testCaseId":"Test Cases/AUTH/TC_Login","iterationVariableName":""}
